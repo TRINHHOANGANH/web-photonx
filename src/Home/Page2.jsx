@@ -7,15 +7,15 @@ import { page2 } from './data';
 
 export default function Page2() {
   const children = page2.map((d, i) => {
-    if (i > 2) {
+    if (i > 3) {
       return null;
     }
     return (
-      <Col key={i} className="col" span={8}>
+      <Col key={i} className="col" span={6}>
         <div className="content-wrapper home-hover">
           <div className="image" style={{ backgroundImage: `url(${d.image})` }} />
           <div className="code-wrapper">
-            <h4>扫码预览</h4>
+            <h4>URL</h4>
             <QRCode value={d.url} size={160} />
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function Page2() {
             key="content"
             component={Row}
             type="bottom"
-            componentProps={{ gutter: 171 }}
+            componentProps={{ gutter: 30 }}
           >
             {children}
           </QueueAnim>

@@ -2,47 +2,52 @@ import React from 'react';
 
 export const page1 = [
   {
-    title: '轻松建站',
-    content: '支持可视化编辑、自由拖拽排版、实时预览、在线访问加速等功能',
+    title: 'Mobile',
+    content: 'Hỗ trợ triển khai usecase AI trên App một cách tiện lợi, nhanh chóng',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/MmROsqZndrFBrIspzLlL.png',
   },
   {
-    title: '数据分析',
-    content: '网站内设有数据监测埋点，助你时刻掌握站点效果，鉴别有效渠道',
+    title: 'Web',
+    content: 'Triển khai dưới dạng service, dễ dàng tích hợp vào phần mềm, hệ thống doanh nghiệp',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/ONvKhpRAmkCfdEhkUZkJ.png',
   },
   {
-    title: '企业协同',
-    content: '企业版支持以团队管理的方式，多人协作完成营销站点，共享资源',
+    title: 'Hạ tầng',
+    content: 'Hỗ trợ triển khai tại cơ sở hạ tầng doanh nghiệp, bảo mât, an toàn, tránh thất thoát dữ liệu doanh nghiệp',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/oxmXLgGjCeXfYPcVSbKg.png',
   },
 ];
 
 export const page2 = [
   {
-    title: '端午节',
-    url: 'https://render.alipay.com/p/f/fd-jauizbz9/index.html',
-    image: 'https://gw.alipayobjects.com/zos/rmsportal/VMhxnfHxvCgksDCnbfQX.jpg',
+    title: 'Nhận diện âm thanh động cơ trong nhà máy, xí nghiệp',
+    url: 'https://youtu.be/MdL-6XvYKQM',
+    image: 'http://drive.google.com/uc?id=1h5puxnKz5KFN7_sNa9PAWq8867lr3y4-',
   },
   {
-    title: '余额宝4周年',
-    url: 'https://render.alipay.com/p/f/fd-jauj8apg/index.html',
-    image: 'https://gw.alipayobjects.com/zos/rmsportal/kJCZlvEAvTnyLVqzrhzH.jpg',
+    title: 'Phát hiện lỗi trên bề mặt PCB',
+    url: 'https://youtu.be/qYWOjZNqchI',
+    image: 'http://drive.google.com/uc?id=1SRnlzI-8MrgcmE0DysggR1h1KTeHF9Bd',
   },
   {
-    title: '支付宝付款',
-    url: 'http://www.anijue.com/p/q/j5rxse2a/pages/home/index.html',
-    image: 'https://gw.alipayobjects.com/zos/rmsportal/yKHLCeGLgdFoxFXhzFtu.jpg',
+    title: 'Đếm số lượng đường ống',
+    url: 'https://youtu.be/DLxXZtvsOIE',
+    image: 'http://drive.google.com/uc?id=1RFyutizRhxZWA0iUf-6spuwXkIg01USh',
+  },
+  {
+    title: 'Edit hình ảnh',
+    url: 'https://youtu.be/oV3832k2s4E',
+    image: 'http://drive.google.com/uc?id=1TCOp4cTevTZV4dErriasX-qOOMIgpNff',
   },
 ];
 
 export const page3 = [
   {
-    title: '个人版',
+    title: 'Dịch vụ',
     content: [
-      <p key="1">支持 H5 站点制作</p>,
-      <p key="2">支持模板管理</p>,
-      <p key="3">支持数据分析</p>,
+      <p key="1">Cá nhân</p>,
+      <p key="2">Các bài toán nhỏ</p>,
+      <p key="3">Chi phí thấp</p>,
     ],
     // exp: '免费使用',
     svg: (<svg width="32px" height="32px" viewBox="0 0 32 32">
@@ -80,14 +85,13 @@ export const page3 = [
     </svg>),
   },
   {
-    title: '企业版',
+    title: 'Doanh nghiệp',
     content: [
-      <p key="1">支持 H5 站点制作</p>,
-      <p key="2">支持模板管理，实现模板共享</p>,
-      <p key="3">支持工作组管理，实现多人协作</p>,
-      <p key="4">支持自定义发布审批流</p>,
-      <p key="5">支持自定义域名</p>,
-      <p key="6">支持成员管理</p>,
+      <p key="1">Doanh nghiệp vừa và nhỏ</p>,
+      <p key="2">Tích hợp hạ tầng doanh nghiệp</p>,
+      <p key="3">Chi phí thấp</p>,
+      <p key="4">Tự động hóa công đoạn</p>,
+      <p key="5">Triển khai nhanh chóng</p>,
     ],
     svg: (
       <svg width="32px" height="32px" viewBox="0 0 32 32">
@@ -119,13 +123,13 @@ export const page3 = [
       </svg>),
   },
   {
-    title: '企业 VIP 版',
+    title: 'VIP ',
     content: [
-      <p key="1">支持通过 OpenAPI 调用制作流程</p>,
-      <p key="2">可以指定可用模板，企业内共享模板</p>,
-      <p key="3">支持创建多个企业级账户</p>,
-      <p key="4">支持自定义发布审批流</p>,
-      <p key="5">支持自定义域名</p>],
+      <p key="1">Nhiều tính năng AI</p>,
+      <p key="2">Cho phép gọi API</p>,
+      <p key="3">Không cần xây dựng hạ tầng server</p>,
+      <p key="4">Triển khai trên Cloud</p>,
+      <p key="5">Chi phí định kỳ</p>],
     svg: (
       <svg width="32px" height="32px" viewBox="0 0 32 32">
         <path
@@ -232,7 +236,7 @@ export const page3 = [
 ];
 
 export const page4 = [
-  'https://gw.alipayobjects.com/zos/rmsportal/kJPmZttedahfIvsZDGTd.svg',
+  'http://drive.google.com/uc?id=1DucNfazxhixcdym6shzyxPgA2IKWwG5x',
   'https://gw.alipayobjects.com/zos/rmsportal/ktLOdfjNyExgKyWjiCvm.svg',
   'https://gw.alipayobjects.com/zos/rmsportal/gNNxbrNqlHdnRuMjUXrL.svg',
   'https://gw.alipayobjects.com/zos/rmsportal/qWaneWxxMVpASpiCOcsT.svg',
@@ -243,9 +247,9 @@ export const page4 = [
 ];
 
 export const footer = [
-  { text: '解决方案', src: '#' },
-  { text: '使用帮助', src: '#' },
-  { text: '模板开发文档', src: '#' },
-  { text: '模板开发工具', src: '#' },
-  { text: '联系我们', src: 'mailto:zhao.wuz@antfin.com' },
+  { text: 'Trang chủ', src: '#' },
+  { text: 'Chuyên môn', src: '#' },
+  { text: 'Dự án', src: '#' },
+  { text: 'Về chúng tôi', src: '#' },
+  { text: 'Liên hệ', src: 'trinhhoanganh0510@gmail.com' },
 ];
