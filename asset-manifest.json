@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/web-photonx/static/css/main.f839538f.css",
-    "main.js": "/web-photonx/static/js/main.7d8a213d.js",
-    "static/js/787.d3b055b9.chunk.js": "/web-photonx/static/js/787.d3b055b9.chunk.js",
+    "main.css": "/web-photonx/static/css/main.8c25eb59.css",
+    "main.js": "/web-photonx/static/js/main.a895978d.js",
+    "static/js/787.519165dd.chunk.js": "/web-photonx/static/js/787.519165dd.chunk.js",
     "index.html": "/web-photonx/index.html",
-    "main.f839538f.css.map": "/web-photonx/static/css/main.f839538f.css.map",
-    "main.7d8a213d.js.map": "/web-photonx/static/js/main.7d8a213d.js.map",
-    "787.d3b055b9.chunk.js.map": "/web-photonx/static/js/787.d3b055b9.chunk.js.map"
+    "main.8c25eb59.css.map": "/web-photonx/static/css/main.8c25eb59.css.map",
+    "main.a895978d.js.map": "/web-photonx/static/js/main.a895978d.js.map",
+    "787.519165dd.chunk.js.map": "/web-photonx/static/js/787.519165dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f839538f.css",
-    "static/js/main.7d8a213d.js"
+    "static/css/main.8c25eb59.css",
+    "static/js/main.a895978d.js"
   ]
 }
